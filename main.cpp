@@ -25,7 +25,7 @@ void loop()
   }
   else
   {
-    Serial.println("No flame detected, stay cool");
+    Serial.println("No flame detected, stay cool.");
     digitalWrite(buzzer, LOW);
     digitalWrite(LED, LOW);
   }
